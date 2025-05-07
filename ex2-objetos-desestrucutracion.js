@@ -9,3 +9,4 @@ const persona = {
   console.log(nombre); // ¿Qué va a imprimir por el terminal? Piénsalo y después ejecuta el código para comprobarlo
   console.log(ciudad); 
   
+  //Lucía Sevilla, ya que en los objetos se asigna por el mismo nombre que contiene el objeto.

@@ -1,6 +1,6 @@
 
 // Uso adecuado de let y scope para actualizar una variable
-// Somos portero de una discoteca y nos indican la edad de la persona que quiere entrar
+// Somos porteros de una discoteca y nos indican la edad de la persona que quiere entrar
 
 // https://www.w3schools.com/react/react_es6_variables.asp
 
@@ -14,3 +14,6 @@ if (edad >= 18) {
 console.log(puedesPasar) // Debería ser true pero vale false. ¿por qué?
 
 // PREGUNTA: ¿Por qué no se actualiza correctamente la variable 'puedesPasar'?
+
+
+// son variables diferentes. Uno el global y el otro el de la función.

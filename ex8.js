@@ -33,7 +33,9 @@ const titleOrder = [
 
 
 function compareTitles(a, b) {
-    //...
+    console.log(titleOrder.indexOf(a.title)+"-"+titleOrder[titleOrder.indexOf(a.title)]+" VS "+titleOrder.indexOf(b.title)+"-"+titleOrder[titleOrder.indexOf(b.title)]);
+    console.log(titleOrder.indexOf(a.title)>titleOrder.indexOf(b.title)? a : b);
+    return titleOrder.indexOf(a.title)>titleOrder.indexOf(b.title)? -1 : 1;
 }
 
 // Ordenamos los nobles usando la función de comparación

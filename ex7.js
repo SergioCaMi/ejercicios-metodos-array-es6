@@ -7,6 +7,15 @@ function calcularEdad(persona) {
 
     // Modificar a partir de aqui
 
+    // Versión 1
+    // newPerson = {   nombre: persona.nombre,
+    //                 nacimiento: persona.nacimiento,
+    //                 edad: currentYear - Number(persona.nacimiento),
+    //             };
+
+    // versión 2
+    newPerson = {...persona, edad: currentYear - Number(persona.nacimiento) };
+    
     // NO modificar a partir de aquí
     return newPerson;
 

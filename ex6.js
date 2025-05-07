@@ -16,7 +16,7 @@ arr.map(function(element, index, array){
 */
 
 function removeEveryOther(arr) {
-    //your code here
+    return arr.filter((e,index)=>index%2==0);
 }
 
 console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']), ['Hello', 'Hello Again']);

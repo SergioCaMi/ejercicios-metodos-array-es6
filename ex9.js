@@ -5,7 +5,10 @@
  */
 
 function highAndLow(numbers){
-    // ...
+  const numbersToExplore = numbers.split(' ').map(Number);
+  const minNumber = Math.min(...numbersToExplore);
+  const maxNumber = Math.max(...numbersToExplore);
+  return `${maxNumber} ${minNumber}`;
   }
 
 console.log(highAndLow("1 2 3 4 5")); // return "5 1"
